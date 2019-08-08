@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "消费详情",
+  "usingComponents": {
+    "van-steps": "/../../static/vant/steps/index"
+  }
+}

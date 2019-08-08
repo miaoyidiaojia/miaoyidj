@@ -1,0 +1,14 @@
+<import src="/components/slots" /><template name="193dab00">
+  <view class="_div data-v-7044c18c address-card" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}"><template name="default"></template>
+    <view class="_div data-v-7044c18c address-card-back">
+      <view class="_div data-v-7044c18c address-card-icon"><template data="{{...$root[$p], ...$root[$k], $root}}" is="{{$slotdefault || 'default'}}"></template></view>
+      <view class="_div data-v-7044c18c address-text-else">
+        {{tit}}
+      </view>
+      <view class="_div data-v-7044c18c address-text-show"><label wx:if="{{couponObj.cstatus === 1}}" class="_span data-v-7044c18c">{{couponObj.cvalue}}元</label> <label wx:if="{{couponObj.cstatus === 2}}" class="_span data-v-7044c18c">{{couponObj.cvalue}}折</label> <label class="_span data-v-7044c18c"></label></view>
+      <view class="_div data-v-7044c18c address-card-bottom-icon">
+        <i-icon type="enter" size="20" color="lightgrey" class="_i-icon data-v-7044c18c"></i-icon>
+      </view>
+    </view>
+  </view>
+</template>

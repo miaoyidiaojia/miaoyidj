@@ -1,0 +1,32 @@
+<import src="/components/address_card.vue.wxml" />
+<import src="/components/title_card.vue.wxml" />
+<import src="/components/order_card.vue.wxml" />
+<import src="/components/coupon_card.vue.wxml" /><template name="53cee3c8">
+  <view class="_div data-v-7464932e"><template data="{{...$root[$kk+'1'], $root, $for:{default:'data-v-7464932e-default-1'},$slotdefault:'data-v-7464932e-default-1'}}" is="7de52894"></template>
+    <picker mode="multiSelector" bindchange="handleProxy" bindcolumnchange="handleProxy" value="{{multiIndex}}" range="{{multiArray}}" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_picker data-v-7464932e"><template data="{{...$root[$kk+'3'], $root, $for:{default:'data-v-7464932e-default-3'},$slotdefault:'data-v-7464932e-default-3'}}" is="13745ef0"></template></picker>
+    <view style="height: 15rpx;background-color: whitesmoke;" class="_div data-v-7464932e"></view> <template data="{{...$root[$kk+'4'], $root}}" is="31cba28c"></template>
+    <view class="_div data-v-7464932e fen-ge">
+      <view class="_div data-v-7464932e fen-ge-content"></view>
+    </view>
+    <view class="_div data-v-7464932e order-bot">
+      <view class="_div data-v-7464932e order-bot-con">
+        <view class="_div data-v-7464932e remark-ti">用户备注信息:</view>
+        <van-field value="{{remarkVal}}" placeholder="请输入备注信息" border="{{borderBo}}" bindchange="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}" class="_van-field data-v-7464932e"></van-field>
+      </view>
+    </view>
+    <view style="height: 15rpx" class="_div data-v-7464932e"></view> <template data="{{...$root[$kk+'7'], $root, $for:{default:'data-v-7464932e-default-7'},$slotdefault:'data-v-7464932e-default-7'}}" is="193dab00"></template>
+    <view class="_div data-v-7464932e">我的积分： {{miaoyiUser.upoints}} <label bindtap="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}" class="_span data-v-7464932e">使用积分</label></view>
+    <view style="height: 25rpx;" class="_div data-v-7464932e"></view>
+    <view style="font-size: 9pt;color: #888;text-align: center" class="_div data-v-7464932e"> 优惠券在下单之后不会返还 </view>
+    <view class="_div data-v-7464932e foot">
+      <view class="_div data-v-7464932e foot-price"> 合计: ￥{{price}}
+      </view>
+      <view class="_div data-v-7464932e foot-pay">
+        <view style="height: 10%" class="_div data-v-7464932e"></view>
+        <i-button bindtap="handleProxy" type="error" long="true" data-eventid="{{'3'}}" data-comkey="{{$k}}" class="_i-button data-v-7464932e">立即预约</i-button>
+      </view>
+    </view>
+    <van-dialog id="van-dialog" class="_van-dialog data-v-7464932e"></van-dialog>
+    <van-toast id="van-toast" class="_van-toast data-v-7464932e"></van-toast>
+  </view>
+</template>

@@ -1,0 +1,15 @@
+<template name="df70d61e">
+  <view class="_div data-v-89079bc2">
+    <i-panel hide-border="{{hideVal}}" title="评分" class="_i-panel data-v-89079bc2">
+      <i-rate bindchange="handleProxy" value="{{rate}}" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_i-rate data-v-89079bc2"></i-rate>
+    </i-panel>
+    <view class="_div data-v-89079bc2">
+      <i-panel hide-border="{{hideVal}}" title="评价内容" class="_i-panel data-v-89079bc2">
+        <i-input value="{{message}}" placeholder="请输入评价内容(最多225个字)" type="textarea" maxlength="225" bindchange="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}" class="_i-input data-v-89079bc2"></i-input>
+      </i-panel>
+    </view>
+    <view class="_div data-v-89079bc2 bu-class">
+      <i-button bindtap="handleProxy" inline type="error" data-eventid="{{'2'}}" data-comkey="{{$k}}" class="_i-button data-v-89079bc2">提交</i-button>
+    </view>
+  </view>
+</template>

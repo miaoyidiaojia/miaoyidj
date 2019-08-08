@@ -1,0 +1,123 @@
+@import "../common/vendor.wxss";
+
+.info-top.data-v-350cb141 {
+  height: 305rpx;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15rpx;
+  border-bottom: 2rpx solid whitesmoke;
+}
+.info-top-content.data-v-350cb141 {
+  height: 60%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.info-top-content-tx.data-v-350cb141 {
+  height: 100%;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+}
+.info-top-content-co.data-v-350cb141 {
+  height: 100%;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.touxiang.data-v-350cb141 {
+  width: 75%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.tupian.data-v-350cb141,
+.na.data-v-350cb141 {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tupian.data-v-350cb141 {
+  width: 60%;
+}
+.na.data-v-350cb141 {
+  width: 40%;
+}
+.na-name.data-v-350cb141,
+.na-tag.data-v-350cb141,
+.na-point.data-v-350cb141 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.na-name.data-v-350cb141 {
+  height: 45%;
+  font-size: 14pt;
+  color: #353535;
+}
+.na-tag.data-v-350cb141 {
+  height: 25%;
+  margin-bottom: 15rpx;
+}
+.na-point.data-v-350cb141 {
+  height: 30%;
+  font-size: 9pt;
+  color: #888;
+}
+.get-points.data-v-350cb141 {
+  width: 60%;
+  height: 30%;
+  font-size: 25rpx;
+  color: #ed3f14;
+  border: 2rpx solid #ed3f14;
+  border-radius: 60rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.member-money.data-v-350cb141 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 35rpx;
+}
+.wo-qian.data-v-350cb141 {
+  width: 90%;
+  height: 75rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.yu-e.data-v-350cb141,
+.sheng-qian.data-v-350cb141 {
+  height: 100%;
+  font-size: 14pt;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.yu-e.data-v-350cb141 {
+  width: 30%;
+  color: #353535;
+  font-weight: bold;
+}
+.sheng-qian.data-v-350cb141 {
+  width: 30%;
+  color: #ed3f14;
+}
+.member-foot.data-v-350cb141 {
+  height: 125rpx;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.member-cz.data-v-350cb141 {
+  display: flex;
+  justify-content: center;
+}
+.addInput.data-v-350cb141 {
+  display: flex;
+  justify-content: center;
+}

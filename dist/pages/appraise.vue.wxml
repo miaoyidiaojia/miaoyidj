@@ -1,0 +1,6 @@
+<import src="/components/review.vue.wxml" /><template name="e1e6f180">
+  <view class="_div data-v-485aa8d2">
+    <view class="_div data-v-485aa8d2 app-contro" wx:key="index" key="{{index}}" wx:for="{{reviewList}}" wx:for-index="index" wx:for-item="item"><template data="{{...$root[$kk+'0_'+index], $root}}" is="cc91e49e"></template></view>
+    <van-toast id="van-toast" class="_van-toast data-v-485aa8d2"></van-toast>
+  </view>
+</template>

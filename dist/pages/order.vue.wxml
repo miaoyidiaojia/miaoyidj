@@ -1,0 +1,22 @@
+<import src="/components/order_intro.vue.wxml" /><template name="0f7e1c49">
+  <view wx:if="{{contro}}" class="_div data-v-7103b3f7">
+    <view wx:if="{{orderVal.length > 0}}" class="_div data-v-7103b3f7">
+      <van-tabs sticky animated swipeable active="{{active}}" bindchange="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_van-tabs data-v-7103b3f7">
+        <van-tab title="全部订单" class="_van-tab data-v-7103b3f7">
+          <view wx:key="index" key="{{index}}" wx:for="{{orderVal}}" wx:for-index="index" wx:for-item="item" class="_div data-v-7103b3f7"><template data="{{...$root[$kk+'0_'+index], $root}}" is="41591c32"></template></view>
+        </van-tab>
+        <van-tab title="未支付" class="_van-tab data-v-7103b3f7">
+          <view wx:key="index" key="{{index}}" wx:for="{{noPayVal}}" wx:for-index="index" wx:for-item="item" class="_div data-v-7103b3f7"><template data="{{...$root[$kk+'2_'+index], $root}}" is="41591c32"></template></view>
+        </van-tab>
+        <van-tab title="已支付" class="_van-tab data-v-7103b3f7">
+          <view wx:key="index" key="{{index}}" wx:for="{{payVal}}" wx:for-index="index" wx:for-item="item" class="_div data-v-7103b3f7"><template data="{{...$root[$kk+'4_'+index], $root}}" is="41591c32"></template></view>
+        </van-tab>
+        <van-tab title="已完成" class="_van-tab data-v-7103b3f7">
+          <view wx:key="index" key="{{index}}" wx:for="{{finishVal}}" wx:for-index="index" wx:for-item="item" class="_div data-v-7103b3f7"><template data="{{...$root[$kk+'6_'+index], $root}}" is="41591c32"></template></view>
+        </van-tab>
+      </van-tabs>
+    </view>
+    <view class="_div data-v-7103b3f7 order-else" wx:else> 您还没有订单！ </view>
+  </view>
+  <view wx:else class="_div data-v-7103b3f7"> 你还未登录 </view>
+</template>

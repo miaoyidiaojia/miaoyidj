@@ -1,0 +1,43 @@
+<import src="/components/my_swiper.vue.wxml" />
+<import src="/components/list_card.vue.wxml" />
+<import src="/components/card.vue.wxml" /><template name="12994866">
+  <view class="_div data-v-5838f37b content">
+    <view class="_div data-v-5838f37b con">
+      <view class="_div data-v-5838f37b localtion">
+        <view class="_div data-v-5838f37b city">
+          <i-icon size="18" type="coordinates" class="_i-icon data-v-5838f37b"></i-icon>
+          <view class="_div data-v-5838f37b city-class">{{city}}</view>
+        </view>
+        <view class="_div data-v-5838f37b top_font">妙尚佳为您服务</view>
+      </view> <template data="{{...$root[$kk+'1'], $root}}" is="5d5d3022"></template>
+      <view class="_div data-v-5838f37b nav_list">
+        <view data-index="1" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_div data-v-5838f37b">
+          <image src="/static/img/new_man.png" class="_img data-v-5838f37b nav_icon"></image>
+          <view class="_div data-v-5838f37b nav_text">新人优惠</view>
+        </view>
+        <view data-index="2" bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}" class="_div data-v-5838f37b">
+          <image src="/static/img/new_man.png" class="_img data-v-5838f37b nav_icon"></image>
+          <view class="_div data-v-5838f37b nav_text">全场满减</view>
+        </view>
+        <view data-index="3" bindtap="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}" class="_div data-v-5838f37b">
+          <image src="/static/img/new_man.png" class="_img data-v-5838f37b nav_icon"></image>
+          <view class="_div data-v-5838f37b nav_text">单项优惠</view>
+        </view>
+        <view data-index="4" bindtap="handleProxy" data-eventid="{{'3'}}" data-comkey="{{$k}}" class="_div data-v-5838f37b">
+          <image src="/static/img/new_man.png" class="_img data-v-5838f37b nav_icon"></image>
+          <view class="_div data-v-5838f37b nav_text">会员八折</view>
+        </view>
+      </view>
+      <view class="_div data-v-5838f37b tit-ti">热门服务</view>
+      <view class="_div data-v-5838f37b hot">
+        <view wx:key="index" key="{{index}}" class="_div data-v-5838f37b hot-con" bindtap="handleProxy" data-eventid="{{'4_'+index}}" data-comkey="{{$k}}" wx:for="{{hotInfo}}" wx:for-index="index" wx:for-item="item">
+          <image style="width: 100%;height: 100%" mode="aspectFill" src="{{item.pcover}}" alt class="_img data-v-5838f37b"></image>
+        </view>
+      </view>
+      <view class="_div data-v-5838f37b tit-ti">妙尚佳</view>
+      <view class="_div data-v-5838f37b contro"><template wx:key="index" data="{{...$root[$kk+'2_'+index], $root}}" is="302204c8" wx:for="{{pa}}" wx:for-index="index" wx:for-item="item"></template></view>
+      <view class="_div data-v-5838f37b tit">推荐服务</view> <template wx:key="index" data="{{...$root[$kk+'3_'+index], $root}}" is="a1fe1cae" wx:for="{{info}}" wx:for-index="index" wx:for-item="item"></template>
+    </view>
+    <van-toast id="van-toast" class="_van-toast data-v-5838f37b"></van-toast>
+  </view>
+</template>

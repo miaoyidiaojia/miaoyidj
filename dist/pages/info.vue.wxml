@@ -1,0 +1,57 @@
+<import src="/components/title_card.vue.wxml" />
+<import src="/components/button_card.vue.wxml" /><template name="35159e83">
+  <view class="_div data-v-69c75915">
+    <view class="_div data-v-69c75915 info-top" wx:if="{{miaoyiUser.uname !== undefined}}">
+      <view class="_div data-v-69c75915 info-top-content">
+        <view class="_div data-v-69c75915 info-top-content-tx">
+          <view class="_div data-v-69c75915 touxiang">
+            <view class="_div data-v-69c75915 tupian">
+              <image style="width: 90%;height: 90%;border-radius: 50px" src="{{miaoyiUser.uavatar}}" class="_img data-v-69c75915"></image>
+            </view>
+            <view class="_div data-v-69c75915 na">
+              <view style="width: 90%;height: 100%;" class="_div data-v-69c75915">
+                <view class="_div data-v-69c75915 na-name">{{miaoyiUser.uname}}</view>
+                <view class="_div data-v-69c75915 na-tag">
+                  <i-tag wx:if="{{miaoyiUser.ustatus}}" class="_i-tag data-v-69c75915 i-tags" name="单个标签" color="yellow"> VIP </i-tag>
+                  <i-tag wx:else class="_i-tag data-v-69c75915 i-tags" name="单个标签" color="yellow"> 会员 </i-tag>
+                </view>
+                <view class="_div data-v-69c75915 na-point">积分:{{miaoyiUser.upoints}}</view>
+              </view>
+            </view>
+          </view>
+        </view>
+        <view class="_div data-v-69c75915 info-top-content-co"><button class="_button data-v-69c75915 get-points" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">积分规则</button></view>
+      </view>
+    </view>
+    <view class="_div data-v-69c75915 info-top" wx:else>
+      <view class="_div data-v-69c75915 info-top-content">
+        <view class="_div data-v-69c75915 else-touxing">
+          <view class="_div data-v-69c75915 else-tupian">
+            <image style="width: 90%;height: 90%;border-radius: 50px" src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3489251037,1613284493&fm=15&gp=0.jpg" class="_img data-v-69c75915"></image>
+          </view>
+        </view>
+        <view style="width: 10%" class="_div data-v-69c75915"></view>
+        <view class="_div data-v-69c75915 na-no">
+          <view bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}" class="_div data-v-69c75915">点击登录</view>
+        </view>
+      </view>
+    </view>
+    <view class="_div data-v-69c75915 info-bottom">
+      <view class="_div data-v-69c75915 info-bottom-content"><template data="{{...$root[$kk+'2'], $root, $for:{default:'data-v-69c75915-default-2'},$slotdefault:'data-v-69c75915-default-2'}}" is="13745ef0"></template> <template data="{{...$root[$kk+'3'], $root, $for:{default:'data-v-69c75915-default-3'},$slotdefault:'data-v-69c75915-default-3'}}" is="13745ef0"></template> <template data="{{...$root[$kk+'4'], $root, $for:{default:'data-v-69c75915-default-4'},$slotdefault:'data-v-69c75915-default-4'}}" is="13745ef0"></template> <template data="{{...$root[$kk+'5'], $root, $for:{default:'data-v-69c75915-default-5'},$slotdefault:'data-v-69c75915-default-5'}}" is="14fc08f4"></template>
+        <view class="_div data-v-69c75915 address-card" bindtap="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}">
+          <view class="_div data-v-69c75915 address-card-back">
+            <view class="_div data-v-69c75915 address-card-icon">
+              <view class="_i data-v-69c75915 iconfont icon-rexian"></view>
+            </view>
+            <view class="_div data-v-69c75915 address-text-else"> 妙尚佳热线 </view>
+            <view class="_div data-v-69c75915 address-text-show"></view>
+            <view class="_div data-v-69c75915 address-card-bottom-icon">
+              <i-icon type="enter" size="20" color="lightgrey" class="_i-icon data-v-69c75915"></i-icon>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <van-dialog id="van-dialog" class="_van-dialog data-v-69c75915"></van-dialog>
+  </view>
+</template>

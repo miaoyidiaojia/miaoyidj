@@ -1,0 +1,9 @@
+<template name="1a176de4">
+  <view class="_div data-v-eae502dc authorize-contianer">
+    <image class="_img data-v-eae502dc authorize-icon" src="/static/img/authorize.png"></image>
+    <view class="_div data-v-eae502dc auth-item">妙尚佳申请获取以下权限：</view>
+    <view class="_div data-v-eae502dc auth-item">获取你的公开信息（头像、昵称等）</view>
+    <view class="_div data-v-eae502dc btn-authorize"><button open-type="getUserInfo" type="primary" lang="zh_CN" bindgetuserinfo="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_button data-v-eae502dc">授权登录</button></view>
+    <view class="_div data-v-eae502dc btn-authorize"><button type="warn" lang="zh_CN" bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}" class="_button data-v-eae502dc">拒绝</button></view>
+  </view>
+</template>

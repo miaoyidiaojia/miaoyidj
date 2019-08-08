@@ -1,0 +1,21 @@
+<template name="3a0e7103">
+  <view class="_div data-v-921befe2">
+    <view class="_div data-v-921befe2 coupon-item">
+      <view class="_div data-v-921befe2 coupon-item-con">
+        <view class="_div data-v-921befe2 coupon-item-info">
+          <view class="_div data-v-921befe2 coupon-item-ti">
+            <view class="_div data-v-921befe2 coupon-title">{{couponItem.cname}}</view>
+            <view class="_div data-v-921befe2 coupon-text">有效期:{{couponItem.caging}}</view>
+            <view class="_div data-v-921befe2 coupon-text">最终解释权归本店所有</view>
+          </view>
+          <view class="_div data-v-921befe2 coupon-item-to">
+            <view class="_div data-v-921befe2">
+              <view wx:if="{{couponItem.cstatus === 1}}" class="_div data-v-921befe2 coupon-zhekou">{{couponItem.cvalue}} <label style="font-weight: normal;font-size: 26rpx" class="_span data-v-921befe2">元</label></view>
+              <view wx:if="{{couponItem.cstatus === 2}}" class="_div data-v-921befe2 coupon-zhekou">{{couponItem.cvalue}} <label style="font-weight: normal;font-size: 26rpx" class="_span data-v-921befe2">折</label></view> <button class="_button data-v-921befe2 in" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">{{buVal}}</button>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

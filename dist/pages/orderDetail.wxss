@@ -1,0 +1,66 @@
+@import "../common/vendor.wxss";
+
+.order-detail.data-v-0bd454a8 {
+  display: flex;
+  justify-content: center;
+}
+.order-detail-top.data-v-0bd454a8 {
+  padding-top: 10rpx;
+  height: 55rpx;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25rpx;
+  border-top: 8rpx solid #09BB07;
+}
+.order-detail-top-content.data-v-0bd454a8 {
+  height: 100%;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+.order-detail-top-state.data-v-0bd454a8 {
+  font-size: 13pt;
+  color: #353535;
+  font-weight: bold;
+}
+.static.data-v-0bd454a8 {
+  font-size: 13pt;
+}
+.order-detail-info.data-v-0bd454a8 {
+  width: 90%;
+}
+.order-detail-info-title.data-v-0bd454a8 {
+  height: 95rpx;
+  font-size: 13pt;
+  color: #353535;
+  display: flex;
+  align-items: center;
+  border-bottom: 2rpx solid whitesmoke;
+  font-weight: bold;
+}
+.order-detail-info-con.data-v-0bd454a8 {
+  margin-top: 25rpx;
+  height: 60rpx;
+  font-size: 11pt;
+  display: flex;
+  flex-direction: row;
+}
+.order-detail-info-con-ti.data-v-0bd454a8,
+.order-detail-info-con-te.data-v-0bd454a8 {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.order-detail-info-con-ti.data-v-0bd454a8 {
+  width: 26%;
+  color: #888;
+}
+.order-detail-info-con-te.data-v-0bd454a8 {
+  width: 74%;
+}
+.order-detail-pay.data-v-0bd454a8 {
+  margin-top: 25rpx;
+  font-size: 9pt;
+  display: flex;
+  justify-content: flex-end;
+}

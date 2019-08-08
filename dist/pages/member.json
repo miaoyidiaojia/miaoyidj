@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "会员",
+  "usingComponents": {
+    "i-tag": "/../../static/iview/tag/index",
+    "i-icon": "/../../static/iview/icon/index",
+    "i-button": "/../../static/iview/button/index",
+    "van-field": "/../../static/vant/field/index",
+    "van-toast": "/../../static/vant/toast/index"
+  }
+}

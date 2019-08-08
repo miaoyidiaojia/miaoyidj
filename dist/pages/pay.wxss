@@ -1,0 +1,9 @@
+@import "../common/vendor.wxss";
+
+.foot.data-v-059eb091 {
+  height: 125rpx;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}

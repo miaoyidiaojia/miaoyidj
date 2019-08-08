@@ -1,0 +1,22 @@
+<import src="/components/slots" /><template name="7de52894">
+  <view class="_div data-v-c51719f0 address-card" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}"><template name="default"></template>
+    <view class="_div data-v-c51719f0 address-card-back">
+      <view class="_div data-v-c51719f0 address-card-icon" hidden="{{!(showVal)}}">
+        <i-icon size="18" type="coordinates" class="_i-icon data-v-c51719f0"></i-icon>
+      </view>
+      <view class="_div data-v-c51719f0 address-text-else"> 服务地址 </view>
+      <view wx:if="{{addressObj.aaddress !== undefined}}" class="_div data-v-c51719f0 address-text">
+        <view class="_div data-v-c51719f0 address-text-top">
+          {{addressObj.aaddress}}
+        </view>
+        <view class="_div data-v-c51719f0 address-text-bottom">
+          {{addressObj.aaddressDetail}}
+        </view>
+      </view>
+      <view wx:else class="_div data-v-c51719f0 address-text-e">
+        {{city}}
+      </view>
+      <view class="_div data-v-c51719f0 address-card-bottom-icon"><template data="{{...$root[$p], ...$root[$k], $root}}" is="{{$slotdefault || 'default'}}"></template></view>
+    </view>
+  </view>
+</template>

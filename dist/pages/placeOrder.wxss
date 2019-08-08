@@ -1,0 +1,152 @@
+@import "../common/vendor.wxss";
+
+.foot.data-v-7464932e {
+  height: 125rpx;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 9999;
+  display: flex;
+  flex-direction: row;
+}
+.fen-ge.data-v-7464932e,
+.order-bot.data-v-7464932e {
+  display: flex;
+  justify-content: center;
+}
+.fen-ge-content.data-v-7464932e {
+  width: 90%;
+  border: 2rpx solid whitesmoke;
+}
+.order-bot-con.data-v-7464932e {
+  width: 90%;
+}
+.remark-ti.data-v-7464932e {
+  color: #353535;
+  font-size: 11pt;
+}
+.order-bot.data-v-7464932e {
+  margin-top: 15rpx;
+  margin-bottom: 15rpx;
+  border-bottom: 2rpx solid whitesmoke;
+}
+.foot-price.data-v-7464932e {
+  width: 40%;
+  height: 100%;
+  background-color: white;
+  font-size: 14pt;
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.foot-pay.data-v-7464932e {
+  width: 60%;
+  height: 100%;
+  background-color: white;
+}
+.address-card.data-v-c51719f0 {
+  height: 106rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.address-card-back.data-v-c51719f0 {
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  height: 100%;
+  border-bottom: 2rpx solid whitesmoke;
+}
+.address-text.data-v-c51719f0,
+.address-text-e.data-v-c51719f0 {
+  margin-top: 10rpx;
+  width: 50%;
+  height: 100%;
+}
+.address-text-top.data-v-c51719f0,
+.address-text-bottom.data-v-c51719f0 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  height: 50%;
+}
+.address-text-top.data-v-c51719f0 {
+  font-size: 13pt;
+  color: #353535;
+}
+.address-text-bottom.data-v-c51719f0 {
+  font-size: 11pt;
+  color: #888;
+  height: 50%;
+}
+.address-text-else.data-v-c51719f0 {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  font-size: 13pt;
+  color: #888;
+  width: 33%;
+}
+.address-card-icon.data-v-c51719f0 {
+  width: 7%;
+  display: flex;
+  align-items: center;
+}
+.address-card-bottom-icon.data-v-c51719f0 {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.address-text-e.data-v-c51719f0 {
+  font-size: 13pt;
+  color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.address-card.data-v-7044c18c {
+  height: 106rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5rpx;
+}
+.address-card-back.data-v-7044c18c {
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  height: 100%;
+  border-bottom: 2rpx solid whitesmoke;
+}
+.address-text-else.data-v-7044c18c {
+  width: 33%;
+  color: #888;
+}
+.address-text-show.data-v-7044c18c,
+.address-text-else.data-v-7044c18c {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  font-size: 13pt;
+}
+.address-text-show.data-v-7044c18c {
+  width: 50%;
+  color: red;
+  justify-content: flex-end;
+}
+.address-card-icon.data-v-7044c18c {
+  width: 7%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.address-card-bottom-icon.data-v-7044c18c {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}

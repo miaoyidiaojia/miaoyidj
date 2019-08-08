@@ -1,0 +1,5 @@
+<template name="7f1a8f97">
+  <view class="_div data-v-20debf76 quanbu">
+    <i-button bindtap="handleProxy" inline type="error" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_i-button data-v-20debf76">领取新人优惠</i-button>
+  </view>
+</template>

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "优惠券领取",
+  "usingComponents": {
+    "i-button": "/../../static/iview/button/index"
+  }
+}

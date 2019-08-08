@@ -1,0 +1,6 @@
+@import "../common/vendor.wxss";
+
+.bu.data-v-e8c2c6ac {
+  display: flex;
+  justify-content: space-around;
+}

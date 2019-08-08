@@ -1,0 +1,11 @@
+@import "../common/vendor.wxss";
+
+.quanbu.data-v-20debf76 {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1564335011402&di=cfabceeb139c1400b6c5c126451959a4&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201207%2F23%2F20120723102604_eLvSm.jpeg");
+}

@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "支付",
+  "usingComponents": {
+    "i-button": "/../../static/iview/button/index",
+    "i-tag": "/../../static/iview/tag/index",
+    "van-cell-group": "/../../static/vant/cell-group/index",
+    "van-cell": "/../../static/vant/cell/index",
+    "van-action-sheet": "/../../static/vant/action-sheet/index",
+    "van-field": "/../../static/vant/field/index",
+    "van-toast": "/../../static/vant/toast/index"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "i-icon": "/../../static/iview/icon/index",
+    "van-popup": "/../../static/vant/popup/index",
+    "van-toast": "/../../static/vant/toast/index"
+  }
+}

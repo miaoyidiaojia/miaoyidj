@@ -1,0 +1,17 @@
+<template name="a1fe1cae">
+  <view class="_div data-v-79281fc6 contain" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+    <view class="_div data-v-79281fc6 imgg">
+      <image style="width: 100%;height: 100%;border-radius: 10px" src="{{info.pcover}}" mode="aspectFill" alt class="_img data-v-79281fc6"></image>
+    </view>
+    <view style="width: 5%" class="_div data-v-79281fc6"></view>
+    <view class="_div data-v-79281fc6 content">
+      <view class="_div data-v-79281fc6 content_ti">{{info.pname}}</view>
+      <view class="_div data-v-79281fc6 content_info">{{info.pintroInfo}}</view>
+      <view class="_div data-v-79281fc6 content_price">
+        <view class="_div data-v-79281fc6 pri"><label style="align-self: flex-end" class="_span data-v-79281fc6">￥</label> <label style="font-size: 40rpx;" class="_span data-v-79281fc6">{{info.pprice}}</label> <label style="align-self: flex-end" class="_span data-v-79281fc6">元</label></view>
+        <view class="_div data-v-79281fc6 po">{{info.poriginalPrice}}元</view>
+        <view class="_div data-v-79281fc6 com">好评率99%</view>
+      </view>
+    </view>
+  </view>
+</template>

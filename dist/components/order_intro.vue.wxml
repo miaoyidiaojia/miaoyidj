@@ -1,0 +1,36 @@
+<template name="41591c32">
+  <view class="_div data-v-83869984 cont">
+    <view class="_div data-v-83869984 intro-container" data-item="{{orderVal}}" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+      <view class="_div data-v-83869984 intro-content">
+        <view class="_div data-v-83869984 intro-top">
+          <view class="_div data-v-83869984 intro-top-name">
+            <view class="_div data-v-83869984 intro-top-name-img">
+              <view style="height: 80%;width: 70%;" class="_div data-v-83869984">
+                <image style="height: 100%;width: 100%" src="/static/img/sj.png" alt class="_img data-v-83869984"></image>
+              </view>
+            </view>
+            <view class="_div data-v-83869984 intro-top-name-name">妙尚佳到家服务</view>
+          </view>
+          <view class="_div data-v-83869984 intro-top-state">{{payState}}</view>
+        </view>
+        <view class="_div data-v-83869984 intro-content-middle">
+          <view class="_div data-v-83869984 intro-content-middle-content">
+            <van-icon name="clock-o" size="11" class="_van-icon data-v-83869984"></van-icon>
+            <view style="width: 2%;" class="_div data-v-83869984"></view>
+            <view class="_div data-v-83869984 middle-content-text">{{orderVal.osubscribeTime}}点</view>
+          </view>
+          <view class="_div data-v-83869984 intro-content-middle-content">
+            <van-icon name="location-o" size="11" class="_van-icon data-v-83869984"></van-icon>
+            <view style="width: 2%;" class="_div data-v-83869984"></view>
+            <view class="_div data-v-83869984 middle-content-text">{{orderVal.address.aaddress}} {{orderVal.address.aaddressDetail}}</view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view style="height: 10rpx" class="_div data-v-83869984"></view>
+    <view class="_div data-v-83869984 intro-button">
+      <van-button plain hairline type="danger" size="small" bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}" class="_van-button data-v-83869984">{{buttonVal}}</van-button>
+    </view>
+    <van-dialog id="van-dialog" class="_van-dialog data-v-83869984"></van-dialog>
+  </view>
+</template>

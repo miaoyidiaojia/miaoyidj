@@ -1,0 +1,16 @@
+<import src="/components/slots" /><template name="13745ef0">
+  <view class="_div data-v-177bb664 address-card" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}"><template name="default"></template>
+    <view class="_div data-v-177bb664 address-card-back">
+      <view class="_div data-v-177bb664 address-card-icon"><template data="{{...$root[$p], ...$root[$k], $root}}" is="{{$slotdefault || 'default'}}"></template></view>
+      <view class="_div data-v-177bb664 address-text-else">
+        {{tit}}
+      </view>
+      <view class="_div data-v-177bb664 address-text-show">
+        {{timeVal}}
+      </view>
+      <view class="_div data-v-177bb664 address-card-bottom-icon">
+        <i-icon type="enter" size="20" color="lightgrey" class="_i-icon data-v-177bb664"></i-icon>
+      </view>
+    </view>
+  </view>
+</template>

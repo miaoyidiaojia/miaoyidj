@@ -1,0 +1,10 @@
+<template name="302204c8">
+  <view class="_div data-v-fa502258 list-card" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+    <view class="_div data-v-fa502258 list-card-img">
+      <image style="width: 100%;height: 100%" mode="aspectFill" src="{{item.pcover}}" alt class="_img data-v-fa502258"></image>
+    </view>
+    <view class="_div data-v-fa502258 list-card-tit">{{item.pname}}</view>
+    <view class="_div data-v-fa502258 list-card-pr">优惠价：{{item.pprice}}</view>
+    <view class="_div data-v-fa502258 list-card-pi">原价：{{item.poriginalPrice}}</view>
+  </view>
+</template>

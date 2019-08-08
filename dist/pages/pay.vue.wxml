@@ -1,0 +1,16 @@
+<import src="/components/order_card.vue.wxml" /><template name="7c49f53a">
+  <view class="_div data-v-059eb091"><template data="{{...$root[$kk+'0'], $root}}" is="31cba28c"></template>
+    <view style="height: 15rpx;background-color: whitesmoke;" class="_div data-v-059eb091"></view>
+    <van-cell-group class="_van-cell-group data-v-059eb091">
+      <van-field value="{{addressDet}}" label="服务地址" disabled border="{{borderBu}}" class="_van-field data-v-059eb091"></van-field>
+      <van-field value="{{ti}}" label="预约时间" disabled border="{{borderBu}}" class="_van-field data-v-059eb091"></van-field>
+      <van-field value="{{remark}}" label="备注信息" disabled border="{{borderBu}}" class="_van-field data-v-059eb091"></van-field>
+      <van-field value="{{pri}}" label="实际支付" disabled error border="{{borderBu}}" class="_van-field data-v-059eb091"></van-field>
+    </van-cell-group>
+    <view class="_div data-v-059eb091 foot">
+      <i-button bindtap="handleProxy" type="error" long="true" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_i-button data-v-059eb091">支付</i-button>
+    </view>
+    <van-action-sheet show="{{show}}" actions="{{actions}}" cancel-text="取消" bindclose="handleProxy" bindcancel="handleProxy" bindselect="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}" class="_van-action-sheet data-v-059eb091"></van-action-sheet>
+    <van-toast id="van-toast" class="_van-toast data-v-059eb091"></van-toast>
+  </view>
+</template>

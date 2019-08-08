@@ -1,0 +1,75 @@
+@import "../common/vendor.wxss";
+
+.order-else.data-v-7103b3f7 {
+  text-align: center;
+  color: #888;
+}
+.intro-container.data-v-83869984 {
+  padding-top: 25rpx;
+  margin-top: 55rpx;
+  display: flex;
+  justify-content: center;
+  border-top: 2rpx solid #FF9912;
+}
+.intro-content.data-v-83869984 {
+  width: 93%;
+  padding-bottom: 7rpx;
+  border-bottom: 2rpx solid whitesmoke;
+}
+.intro-top.data-v-83869984 {
+  width: 100%;
+  height: 65rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 10rpx;
+  border-bottom: 2rpx solid whitesmoke;
+}
+.intro-top-name.data-v-83869984 {
+  height: 100%;
+  width: 75%;
+  display: flex;
+  flex-direction: row;
+}
+.intro-top-state.data-v-83869984 {
+  height: 100%;
+  width: 20%;
+  font-size: 11pt;
+  color: red;
+}
+.intro-top-name-img.data-v-83869984 {
+  width: 15%;
+  height: 100%;
+}
+.intro-top-name-name.data-v-83869984 {
+  width: 85%;
+  height: 100%;
+  font-size: 11pt;
+  color: #353535;
+}
+.intro-content-middle.data-v-83869984 {
+  padding-top: 15rpx;
+  height: 90rpx;
+  margin-bottom: 30rpx;
+}
+.intro-content-middle-content.data-v-83869984 {
+  height: 50%;
+  width: 100%;
+  margin-bottom: 15rpx;
+  display: flex;
+}
+.middle-content-text.data-v-83869984 {
+  font-size: 11pt;
+  color: #888;
+  display: flex;
+  align-items: flex-start;
+}
+van-icon.data-v-83869984 {
+  display: flex;
+  align-items: center;
+}
+.intro-button.data-v-83869984 {
+  width: 96.5%;
+  display: flex;
+  justify-content: flex-end;
+}

@@ -1,0 +1,18 @@
+<template name="76db21d2">
+  <view class="_div data-v-37bc8cea">
+    <view class="_div data-v-37bc8cea address-item">
+      <view class="_div data-v-37bc8cea address-item-con">
+        <view class="_div data-v-37bc8cea moren" wx:if="{{showBo}}">
+          <van-icon color="{{addressItem.color}}" name="checked" class="_van-icon data-v-37bc8cea"></van-icon>
+        </view>
+        <view class="_div data-v-37bc8cea address-item-add">
+          <view class="_div data-v-37bc8cea address-item-big">{{addressItem.aaddress}}  {{addressItem.aaddressDetail}}</view>
+          <view class="_div data-v-37bc8cea address-item-small">{{addressItem.aname}}  {{addressItem.amobile}}</view>
+        </view>
+        <view class="_div data-v-37bc8cea address-item-ic">
+          <van-icon catchtap="handleProxy" name="edit" size="24px" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_van-icon data-v-37bc8cea"></van-icon>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

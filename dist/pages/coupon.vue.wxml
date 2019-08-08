@@ -1,0 +1,8 @@
+<import src="/components/coupon_item.vue.wxml" /><template name="4bb40a8a">
+  <view class="_div data-v-ad594e66">
+    <view wx:if="{{couponList.length > 0}}" class="_div data-v-ad594e66"><template wx:key="index" data="{{...$root[$kk+'0_'+index], $root}}" is="3a0e7103" wx:for="{{couponList}}" wx:for-index="index" wx:for-item="item"></template>
+      <view style="background-color: whitesmoke;height: 25rpx" class="_div data-v-ad594e66"></view>
+    </view>
+    <view class="_div data-v-ad594e66 noi" wx:else> 您没有优惠券 </view>
+  </view>
+</template>

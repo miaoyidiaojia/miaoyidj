@@ -1,0 +1,62 @@
+{
+  "pages": [
+    "pages/index",
+    "pages/authorize",
+    "pages/info",
+    "pages/details",
+    "pages/confirm",
+    "pages/order",
+    "pages/orderDetail",
+    "pages/pay",
+    "pages/placeOrder",
+    "pages/member",
+    "pages/coupon",
+    "pages/address",
+    "pages/addressEditor",
+    "pages/appraise",
+    "pages/appraiseAdd",
+    "pages/getCoupon",
+    "pages/discounts",
+    "pages/paySuccess",
+    "pages/consumeDetail"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序定位以便获取更好的服务体验"
+    }
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "妙尚佳到家服务平台",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "backgroundColor": "#fafafa",
+    "selectedColor": "#333",
+    "borderStyle": "white",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index",
+        "iconPath": "static/img/icon_home.png",
+        "selectedIconPath": "static/img/icon_home_active.png"
+      },
+      {
+        "text": "订单",
+        "pagePath": "pages/order",
+        "iconPath": "static/img/icon_shop_cart.png",
+        "selectedIconPath": "static/img/icon_shop_cart_active.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/info",
+        "iconPath": "static/img/icon_info.png",
+        "selectedIconPath": "static/img/icon_info_active.png"
+      }
+    ],
+    "position": "bottom"
+  },
+  "subPackages": []
+}

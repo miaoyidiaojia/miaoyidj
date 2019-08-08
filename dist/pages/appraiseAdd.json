@@ -1,9 +1,0 @@
-{
-  "navigationBarTitleText": "评价",
-  "usingComponents": {
-    "i-rate": "/../../static/iview/rate/index",
-    "i-button": "/../../static/iview/button/index",
-    "i-panel": "/../../static/iview/panel/index",
-    "i-input": "/../../static/iview/input/index"
-  }
-}

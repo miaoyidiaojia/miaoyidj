@@ -1,8 +1,0 @@
-<template name="a8f4b5ba">
-  <view class="_div data-v-8af2bba2 mytitle">
-    <view style="width: 3%" class="_div data-v-8af2bba2"></view>
-    <view class="_div data-v-8af2bba2 mytitle-icon"></view>
-    <view style="width: 3%" class="_div data-v-8af2bba2"></view>
-    <view class="_div data-v-8af2bba2 mytitle-text">{{title}}</view>
-  </view>
-</template>

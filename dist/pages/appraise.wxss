@@ -1,6 +1,0 @@
-@import "../common/vendor.wxss";
-
-.app-contro.data-v-485aa8d2 {
-  display: flex;
-  justify-content: center;
-}

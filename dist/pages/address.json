@@ -1,7 +1,0 @@
-{
-  "navigationBarTitleText": "地址管理",
-  "usingComponents": {
-    "i-button": "/../../static/iview/button/index",
-    "van-icon": "/../../static/vant/icon/index"
-  }
-}

@@ -57,7 +57,10 @@
   }
   .address-text-else {
     width: 33%;
-    color: #888;
+    color: rgb(153,153,153);
+    position: relative;
+    /*top: 10rpx;*/
+    left: 23rpx;
   }
   .address-text-show,.address-text-else {
     display: flex;
@@ -67,7 +70,8 @@
   }
   .address-text-show {
     width: 50%;
-    color: red;
+    color: black;
+    font-size: 11pt;
     justify-content: flex-end;
   }
   .address-card-icon {

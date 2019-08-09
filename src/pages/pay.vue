@@ -50,7 +50,6 @@
   import api from '@/api/index'
   import { prePay } from '@/utils/pay'
   import { RECHARGE } from '@/utils/constant'
-
   export default {
     config: {
       navigationBarTitleText: '支付',

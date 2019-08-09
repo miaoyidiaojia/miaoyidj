@@ -26,7 +26,7 @@
   import api from '@/api/index'
   export default {
     config: {
-      navigationBarTitleText: '地址管理',
+      navigationBarTitleText: '我的地址',
       usingComponents: {
         'i-button': '../../static/iview/button/index',
         'van-icon': '../../static/vant/icon/index'

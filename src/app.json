@@ -19,6 +19,10 @@
     "pages/discounts",
     "pages/paySuccess",
     "pages/consumeDetail"
+    "pages/consumeDetail",
+    "pages/topup",
+
+
   ],
   "permission": {
     "scope.userLocation": {

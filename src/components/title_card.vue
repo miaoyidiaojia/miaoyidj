@@ -27,7 +27,8 @@
       },
       url: {
         type: String
-      }
+      },
+      text: {type: String}
     },
     methods: {
       goSkip () {
@@ -55,7 +56,8 @@
   }
   .address-text-else {
     width: 33%;
-    color: #888;
+    color: rgb(153,153,153);
+    margin-left: 20rpx;
   }
   .address-text-show,.address-text-else {
     display: flex;
@@ -65,7 +67,8 @@
   }
   .address-text-show {
     width: 50%;
-    color: red;
+    /*color: red;*/
+    color: rgb(254,128,73);
     justify-content: flex-end;
   }
   .address-card-icon {

@@ -6,8 +6,8 @@
           <van-icon :color="addressItem.color" name="checked" />
         </div>
         <div class="address-item-add">
-          <div class="address-item-big">{{addressItem.aaddress}}&nbsp;&nbsp;{{addressItem.aaddressDetail}}</div>
-          <div class="address-item-small">{{addressItem.aname}}&nbsp;&nbsp;{{addressItem.amobile}}</div>
+          <div class="address-item-big">{{addressItem.aname}}&nbsp;&nbsp;<span style="position: relative;left: 53%;font-weight: normal">{{addressItem.amobile}}</span></div>
+          <div class="address-item-small">{{addressItem.aaddress}}&nbsp;&nbsp;{{addressItem.aaddressDetail}}</div>
         </div>
         <div class="address-item-ic">
           <van-icon @click.stop="addressEdit" name="edit" size="24px"/>
@@ -57,6 +57,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
+    position: relative;
+    top: -15rpx;
+    left: 20rpx;
+
   }
   .address-item-small,.address-item-big {
     width: 100%;
@@ -67,6 +72,9 @@
     height: 70%;
     font-size: 11pt;
     color: #353535;
+
+    font-weight: bold;
+
   }
   .address-item-small {
     height: 30%;
@@ -80,4 +88,9 @@
     align-items: center;
     justify-content: center;
   }
+
+  .bottom{
+
+  }
+
 </style>

@@ -1,6 +1,8 @@
 import fly from '@/utils/request'
 
-const baseURI = 'http://www.localhost:9090/api/'
+// const baseURI = 'http://www.localhost:9090/api/'
+
+const baseURI = 'http://localhost:9090/api/'
 
 const api = {
   // 获取所以商品
@@ -70,6 +72,7 @@ const api = {
   // 获取用户订单
   getUserOrder: (r) => fly.get('order/userGetAllOrder', {userId: r}, {
     baseURL: baseURI
+<<<<<<< HEAD
   }),
   // 会员支付
   memberPay: (r) => fly.get('user/memberPay', r, {

@@ -48,7 +48,6 @@
         <i-button @click="recharge" inline type="error">2000元</i-button>
       </div>
       <div style="height: 55rpx"></div>
-      <button v-for="(item,index) in li" :key="index">充{{item.bbase}}送{{item.bgive}}</button>
       <div class="addInput">
         <div style="width: 90%;">
           <van-field
@@ -66,7 +65,6 @@
     <div class="member-foot">
       <i-button @click="recharge" type="error" long="true">充值</i-button>
     </div>
-    <van-toast id="van-toast" />
   </div>
 </template>
 <script>
@@ -76,7 +74,6 @@
   import { PAY } from '@/utils/constant'
   import {createOrderNo} from '@/utils/index'
   import Toast from '../../static/vant/toast/toast'
-
   export default {
     config: {
       navigationBarTitleText: '会员',
@@ -203,8 +200,8 @@
           openid: this.$store.state.openid,
           attach: PAY
         })
-      }
-    }
+	  }
+	}
   }
 </script>
 <style scoped>

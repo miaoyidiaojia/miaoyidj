@@ -16,6 +16,7 @@
     "mpvue": "^2.0.0",
     "mpvue-router-patch": "^2.0.0",
     "mpvue-wxparse": "^0.6.5",
+    "vue-template-compiler": "^2.6.10",
     "vuex": "^3.0.0"
   },
   "devDependencies": {
@@ -33,9 +34,10 @@
     "eslint": "^4.19.0",
     "eslint-config-standard": "^11.0.0",
     "eslint-friendly-formatter": "^4.0.0",
-    "eslint-loader": "^2.0.0",
+
+    "eslint-loader": "^2.2.1",
     "eslint-plugin-html": "^4.0.0",
-    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-node": "^6.0.0",
     "eslint-plugin-promise": "^3.4.0",
     "eslint-plugin-standard": "^3.0.0",

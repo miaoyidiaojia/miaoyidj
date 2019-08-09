@@ -3,23 +3,37 @@
     <addresscard :addressObj="addressInfo" :city="city">
       <i-icon type="enter" size="20" color="lightgrey"/>
     </addresscard>
-    <picker mode="multiSelector"
-            @change="bindMultiPickerChange"
-            @columnchange="bindMultiPickerColumnChange"
-            :value="multiIndex" :range="multiArray">
-      <titlecard :tit="time" :timeVal="timeValue + '点'">
-        <i-icon type="clock" size="18"/>
-      </titlecard>
-    </picker>
+<!--    <picker mode="multiSelector"-->
+<!--            @change="bindMultiPickerChange"-->
+<!--            @columnchange="bindMultiPickerColumnChange"-->
+<!--            :value="multiIndex" :range="multiArray">-->
+<!--      <titlecard :tit="time" :timeVal="timeValue + '点'">-->
+<!--        <i-icon type="clock" size="18"/>-->
+<!--      </titlecard>-->
+<!--    </picker>-->
+      <img src="../../static/img/placeorder/bg_bottom.png" style="width: 100%;height: 10rpx;margin-top: -30rpx">
     <div style="height: 15rpx;background-color: whitesmoke;"></div>
     <ordercard :orderObj="productInfo"/>
     <div class="fen-ge">
       <div class="fen-ge-content">
       </div>
     </div>
+
+
+    <picker mode="multiSelector"
+            @change="bindMultiPickerChange"
+            @columnchange="bindMultiPickerColumnChange"
+            :value="multiIndex" :range="multiArray">
+      <titlecard :tit="time" :timeVal="timeValue + '点'">
+<!--        <i-icon type="clock" size="18"/>-->
+        <img src="../../static/img/placeorder/icon_time.png" style="width: 40rpx;height: 40rpx;">
+      </titlecard>
+    </picker>
     <div class="order-bot">
+      <img src="../../static/img/placeorder/icon_addition.png" style="width: 40rpx;height: 40rpx;margin-left: -13rpx;position: relative;left: -32rpx;top: 23rpx">
+      <span class="remark-ti">备注信息:</span>
       <div class="order-bot-con">
-        <div class="remark-ti">用户备注信息:</div>
+
         <van-field
           :value="remarkVal"
           placeholder="请输入备注信息"
@@ -30,9 +44,9 @@
     </div>
     <div style="height: 15rpx"></div>
     <couponcard :tit="couponTit" :couponObj="couponInfo" :url="couponUrl">
-      <i-icon type="coupons" size="18"/>
+<!--      <i-icon type="coupons" size="18"/>-->
+      <img src="../../static/img/placeorder/icon_disaccount.png" style="width: 40rpx;height: 40rpx;">
     </couponcard>
-    <div>我的积分： {{miaoyiUser.upoints}}  <span @click="usePoints">使用积分</span></div>
     <div style="height: 25rpx;"></div>
     <div style="font-size: 9pt;color: #888;text-align: center">
       优惠券在下单之后不会返还
@@ -43,7 +57,7 @@
       </div>
       <div class="foot-pay">
         <div style="height: 10%"></div>
-        <i-button  @click="goPay" type="error" long="true">立即预约</i-button>
+        <i-button  @click="goPay" type="warning" long="true">立即预约</i-button>
       </div>
     </div>
     <van-dialog id="van-dialog" />
@@ -99,20 +113,20 @@
     data () {
       return {
         address: '选择地址',
-        time: '预约时间',
+		time: '预约时间:',
         multiArray: this.getList(),
         multiIndex: [0, 0],
         remarkVal: '',
-        couponTit: '我的优惠',
+        couponTit: '优惠:',
         couponUrl: '/pages/coupon',
         borderBo: false,
         timeValue: '',
         price: 0,
-        ratio: 1
+		ratio: 1
       }
     },
     methods: {
-      async getPointsRule () {
+	  async getPointsRule () {
         const res = await api.getPointsRules()
         if (res.code === 1) {
           this.ratio = res.data.rmolPoints / res.data.rdenPoints
@@ -222,11 +236,14 @@
     border: 1px solid whitesmoke
   }
   .order-bot-con {
-    width: 90%;
+    width: 60%;
   }
   .remark-ti {
-    color: #353535;
-    font-size: 11pt;
+    color: rgb(153,153,153);
+    font-size: 13pt;
+    position: relative;
+    top: 23rpx;
+    left: -2rpx;
   }
   .order-bot {
     margin-top: 15rpx;

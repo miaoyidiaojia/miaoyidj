@@ -63,6 +63,7 @@ export function getYear (date) {
   return `${year}`
 }
 
+
 export function rabdomNumber () {
   let n = ''
   for (let i = 0; i < 16; i++) {
